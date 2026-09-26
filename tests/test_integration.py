@@ -2,7 +2,7 @@ import requests
 
 
 def login(username, password):
-    url = "http://localhost:8000/login"
+    url = f"http://0.0.0.0:8000/login"
     headers = {
         "accept": "application/json",
         "Content-Type": "application/x-www-form-urlencoded",
